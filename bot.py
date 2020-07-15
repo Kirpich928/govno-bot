@@ -2,7 +2,7 @@ import discord
 from discord.ext import commands
 from config import settings
 
-client = commands.Bot(command_prefix = (settings['prefix']))
+client = commands.Bot(command_prefix = (str(prefix)))
 
 @client.event
 
